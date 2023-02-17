@@ -1,1 +1,26 @@
-Hello world
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tetris Game</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="game-container">
+		<div class="game-board">
+			<!-- game board will be generated here -->
+		</div>
+		<div class="next-block">
+			<h2>Next Block:</h2>
+			<div class="next-block-container">
+				<!-- next block will be generated here -->
+			</div>
+		</div>
+		<div class="game-stats">
+			<!-- game stats will be generated here -->
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
+
